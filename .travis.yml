@@ -13,8 +13,7 @@ before_script:
   - env | sort
 
 script:
-  - hack/make.sh
-  - hack/make.sh
+  - make test
 
 # vim:set sw=2 ts=2:
 
