@@ -13,8 +13,8 @@ before_script:
   - env | sort
 
 script:
-  - hack/make.sh validate-dco
-  - hack/make.sh validate-gofmt
+  - hack/make.sh
+  - hack/make.sh
 
 # vim:set sw=2 ts=2:
 
