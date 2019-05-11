@@ -17,3 +17,4 @@ script:
   - hack/make.sh validate-gofmt
 
 # vim:set sw=2 ts=2:
+
