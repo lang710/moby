@@ -13,7 +13,8 @@ before_script:
   - env | sort
 
 script:
-  - make test
+  - make test-unit
+  - make test-integration
 
 # vim:set sw=2 ts=2:
 
