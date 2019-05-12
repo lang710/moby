@@ -3,18 +3,22 @@
 # Later we might automate "go test" etc. (or do it inside a docker container...?)
 
 language: go
+sudo: required
 
-go: 1.10.4
+go: 1.12.4
 
 # Disable the normal go build.
 install: true
 
+services:
+  - docker
+
 before_script:
   - env | sort
 
-script:
-  - make test-unit
-  - make test-integration
+#script:
+  #- make test-unit
+  #- make test-integration
 
 # vim:set sw=2 ts=2:
 
