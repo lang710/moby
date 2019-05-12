@@ -4,7 +4,7 @@
 
 language: go
 
-go: 1.2.1
+go: 1.10.4
 
 # Disable the normal go build.
 install: true
