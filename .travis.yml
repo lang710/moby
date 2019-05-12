@@ -21,4 +21,3 @@ before_script:
   #- make test-integration
 
 # vim:set sw=2 ts=2:
-
